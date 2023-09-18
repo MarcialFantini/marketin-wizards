@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./style.module.css";
-import img from "../../assets/prueba.jpg";
+import img from "../../assets/farmTop/tomattos.jpg";
+import flower from "../../assets/flower.png";
 
 function CardTopThree() {
   return (
@@ -11,7 +12,7 @@ function CardTopThree() {
 
       <div className={style.containerText}>
         <picture className={style.picture}>
-          <img className={style.img} alt="" />
+          <img className={style.imgFlower} src={flower} alt="" />
         </picture>
 
         <h3 className={style.title}>
@@ -24,6 +25,7 @@ function CardTopThree() {
           recusandae a quasi ipsam necessitatibus exercitationem, maxime, magni
           neque nesciunt error, minima voluptate ipsa velit!
         </p>
+        <button className={style.button}>Learn More</button>
       </div>
     </div>
   );

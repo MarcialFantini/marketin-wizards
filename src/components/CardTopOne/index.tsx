@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../assets/prueba.jpg";
+import image from "../../assets/farmTop/boy.jpg";
 
 import style from "./style.module.css";
 
@@ -18,6 +18,7 @@ function CardTopOne() {
           There are many variations of passages of lorem ipsum available, but
           the Majority
         </p>
+        <button className={style.button}>Learn About</button>
       </div>
     </div>
   );

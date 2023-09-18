@@ -1,0 +1,69 @@
+.containerAllAbout {
+  margin: 50px 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.containerTextTop {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.containerTextTop h2 {
+  font-size: 2.4rem;
+}
+
+.containerTextColumn p {
+  font-size: 1.6rem;
+  color: black;
+}
+
+.containerTextColumn button {
+  font-size: 2rem;
+  background: none;
+  border: none;
+
+  cursor: pointer;
+
+  color: #46993d;
+}
+
+.picture {
+  width: 100%;
+  height: auto;
+
+  max-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  border-radius: 20px;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+.containerCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+
+  margin: 20px 0;
+}
+
+.flower {
+  max-height: 100px;
+
+  position: relative;
+}
+
+.flower img {
+  position: absolute;
+  width: auto;
+  height: 100%;
+}

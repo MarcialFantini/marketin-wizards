@@ -1,0 +1,79 @@
+.img {
+  width: 110%;
+  height: auto;
+}
+.containerAll {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+}
+
+.containerColumn {
+  margin: auto 0;
+}
+
+.picture {
+  border-radius: 20px;
+  overflow: hidden;
+
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.title {
+  color: #d2ad01;
+  font-size: 2.4rem;
+}
+
+.text {
+  font-size: 1.6rem;
+}
+
+.button {
+  width: auto;
+  font-size: 1.4rem;
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: 1px solid black;
+
+  background: none;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  height: 100%;
+  height: auto;
+}
+
+.list li picture {
+  width: 80px;
+  aspect-ratio: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.list li div {
+  display: flex;
+  flex-direction: column;
+}
+
+.list li div h4 {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+.list li div p {
+  font-size: 1.2rem;
+}

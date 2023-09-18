@@ -1,0 +1,29 @@
+.containerCard {
+  background: rgb(216, 209, 209);
+  color: black;
+
+  padding: 20px;
+
+  border-radius: 10px;
+
+  transition: all 0.3s;
+}
+
+.containerCard:hover {
+  background: #46973b;
+  color: white;
+}
+
+.title {
+  font-size: 2rem;
+  margin: auto;
+}
+
+.subTitle {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+.text {
+  font-size: 1.2rem;
+}

@@ -1,5 +1,6 @@
 import React from "react";
-import img from "../../assets/prueba.jpg";
+import img from "../../assets/farmTop/middle.jpg";
+import plant from "../../assets/flower.png";
 
 import style from "./style.module.css";
 
@@ -8,7 +9,7 @@ function CardTopTwo() {
     <div className={style.container}>
       <div className={style.containerText}>
         <picture className={style.picture}>
-          <img className={style.img} alt="" />
+          <img className={style.flower} src={plant} alt="" />
         </picture>
 
         <h3 className={style.title}>

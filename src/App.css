@@ -1,4 +1,18 @@
 .containerWebApp {
+  width: 90%;
+
   max-width: 1200px;
   margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+img {
+  transition: all 0.3s;
+}
+
+img:hover {
+  transform: scale(1.2);
 }
