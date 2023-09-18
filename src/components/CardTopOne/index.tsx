@@ -1,4 +1,3 @@
-import React from "react";
 import image from "../../assets/farmTop/boy.jpg";
 
 import style from "./style.module.css";

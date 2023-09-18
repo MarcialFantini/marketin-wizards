@@ -1,4 +1,3 @@
-import React from "react";
 import style from "./style.module.css";
 import prueba from "../../assets/farmChoose/farmChoose2.jpg";
 import prueba2 from "../../assets/farmChoose/farmChoose.jpg";

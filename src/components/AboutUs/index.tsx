@@ -1,4 +1,3 @@
-import React from "react";
 import style from "./style.module.css";
 
 import large from "../../assets/farmLarge/farm.jpg";
@@ -31,7 +30,7 @@ function AboutUs() {
       </picture>
 
       <div className={style.containerCards}>
-        {cards.map((item) => {
+        {cards.map(() => {
           return <CardAbout></CardAbout>;
         })}
       </div>
